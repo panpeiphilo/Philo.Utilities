@@ -3,7 +3,7 @@ using System;
 using System.Security.Cryptography;
 using System.IO;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.DEncrypt
 {
 	/// <summary>
 	/// 加密解密实用类。

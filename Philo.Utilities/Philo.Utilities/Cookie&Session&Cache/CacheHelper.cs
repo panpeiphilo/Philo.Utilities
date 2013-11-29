@@ -2,7 +2,7 @@
 using System.Web;
 using System.Collections;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.Cache
 {
     public class CacheHelper
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Security.Cryptography;  
 using System.Text;
-namespace Philo.Utilities
+namespace Philo.Utilities.DEncrypt
 {
 	/// <summary>
 	/// DESº”√‹/Ω‚√‹¿‡°£

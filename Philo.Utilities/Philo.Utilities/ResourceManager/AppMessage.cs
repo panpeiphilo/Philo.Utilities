@@ -5,7 +5,7 @@
 using System;
 using System.Globalization;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.ResourceManager
 {
     /// <summary>
     ///	BUBaseAppMessage

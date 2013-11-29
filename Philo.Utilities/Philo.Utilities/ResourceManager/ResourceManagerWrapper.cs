@@ -5,7 +5,7 @@
 using System;
 using System.Collections;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.ResourceManager
 {
     /// <summary>
     /// ResourceManagerWrapper

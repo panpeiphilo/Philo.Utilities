@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Collections;
 using System.Data.Common;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.JsonHelper
 {
     //JSON转换类
     public class ConvertJson

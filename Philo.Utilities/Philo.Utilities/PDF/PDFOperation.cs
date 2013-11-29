@@ -2,7 +2,7 @@
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.Pdf
 {
     /// <summary>
     /// PDF文档操作类

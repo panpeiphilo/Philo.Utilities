@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.ResourceManager
 {
     /// <summary>
     /// ResourceManager

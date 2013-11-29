@@ -4,8 +4,9 @@ using System.Security.Cryptography;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections;
+using Philo.Utilities.WebX;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.DEncrypt
 {
     /// <summary>
     /// MySecurity(安全类) 的摘要说明。
@@ -246,7 +247,7 @@ namespace Philo.Utilities
         {
 
             //如果字符串为空，则返回
-            if (Tools.IsNullOrEmpty<string>(text))
+            if (WebTools.IsNullOrEmpty<string>(text))
             {
                 return "";
             }
@@ -261,7 +262,7 @@ namespace Philo.Utilities
         public static string MD5(byte[] data)
         {
             //如果Byte数组为空，则返回
-            if (Tools.IsNullOrEmpty<byte[]>(data))
+            if (WebTools.IsNullOrEmpty<byte[]>(data))
             {
                 return "";
             }
@@ -298,7 +299,7 @@ namespace Philo.Utilities
         public static string EncodeBase64(string text)
         {
             //如果字符串为空，则返回
-            if (Tools.IsNullOrEmpty<string>(text))
+            if (WebTools.IsNullOrEmpty<string>(text))
             {
                 return "";
             }
@@ -361,7 +362,7 @@ namespace Philo.Utilities
         public static string DecodeBase64(string text)
         {
             //如果字符串为空，则返回
-            if (Tools.IsNullOrEmpty<string>(text))
+            if (WebTools.IsNullOrEmpty<string>(text))
             {
                 return "";
             }

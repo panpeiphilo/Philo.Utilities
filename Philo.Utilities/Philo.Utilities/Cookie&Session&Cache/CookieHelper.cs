@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web;
 
-namespace Philo.Utilities
+namespace Philo.Utilities.Cookie
 {
     public class CookieHelper
     {
